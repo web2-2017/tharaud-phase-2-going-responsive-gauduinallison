@@ -112,6 +112,12 @@ h2{
     p{
         color:#082c34;
     }
+
+    .arrow_turquoise{
+        position: absolute;
+        top: 952px;
+        right: 293px;
+    }
 }
 
 .btn{
@@ -132,4 +138,22 @@ h2{
 
 footer{
     background: url('../img/pattern.png');
+}
+
+.instagram{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.player{
+    position: absolute;
+    margin-left: 111px;
+    margin-top: 57px;
+}
+
+.eye{
+    position: absolute;
+    margin-top: 115px;
+    margin-left: 110px;
 }
