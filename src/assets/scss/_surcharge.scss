@@ -9,63 +9,13 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    background: url('../img/bg.png') no-repeat 100%;
+    font-family: 'Open Sans', sans-serif;
+    background: url("../img/bg.png") no-repeat bottom;
+    background-size: contain;
 }
 
 h2{
     font-family: 'jaapokkiregular';
-}
-
-h4{
-    font-family: 'jaapokkiregular';
-    color:#0081af;
-}
-
-h4::before{
-    content: "";
-    background-color:#0081af;
-    width:10%;
-    height: 4px;
-    border-radius:30px;
-    position: absolute;
-    left: 45%;
-    top: 70px;
-}
-
-.position{
-    position: relative;
-}
-
-em{
-    color:#919191;
-}
-
-em::after{
-    content: "";
-    background-color:#0081af;
-    width:10%;
-    height: 4px;
-    border-radius:30px;
-    position: absolute;
-    left: 45%;
-    bottom: 88px;
-}
-
-h5{
-    font-size:16px;
-    color:#3eaf8e;
-    font-family: 'jaapokkiregular';
-}
-
-#description{
-    font-size:18px;
-    margin-left:97px;
-    margin-right: 97px;
-    color:#082c34;
-}
-
-p{
-    color:#082c34;
 }
 
 .background{
@@ -74,21 +24,73 @@ p{
 
 .nouveautes{
     background: url('../img/bg_nouveautes.png') no-repeat 100%;
-}
 
-time{
-    font-size: 16px;
-    color:#3eaf8e;
-    font-weight: bold;
+    #description{
+        font-size:18px;
+        margin-left:97px;
+        margin-right: 97px;
+        color:#082c34;
+    }
+
+    .position{
+        position: relative;
+    }
+
+    em{
+        color:#919191;
+
+        &::after{
+            content: "";
+            background-color:#0081af;
+            width:10%;
+            height: 4px;
+            border-radius:30px;
+            position: absolute;
+            left: 45%;
+            bottom: 88px;
+        }
+    }
+
+    h4{
+        font-family: 'jaapokkiregular';
+        color:#0081af;
+
+        &::before{
+            content: "";
+            background-color:#0081af;
+            width:10%;
+            height: 4px;
+            border-radius:30px;
+            position: absolute;
+            left: 45%;
+            top: 70px;
+        }
+    }
+
+    h5{
+        font-size:16px;
+        color:#3eaf8e;
+        font-family: 'jaapokkiregular';
+    }
 }
 
 .dates{
     margin-bottom: 98px;
     padding: 0.9375rem 90px !important;
-}
 
-hr{
-    width: 325px;
+    time{
+        font-size: 16px;
+        color:#3eaf8e;
+        font-weight: bold;
+    }
+
+    hr{
+        width: 325px;
+    }
+
+    p{
+        color:#082c34;
+    }
 }
 
 .btn{
@@ -99,10 +101,10 @@ hr{
     color:#a1a1a1;
     font-weight: bold;
     font-size: 16px;
-}
 
-.btn:hover{
-    border-color: #0081af;
-    background: none;
-    color: #0081af;
+    &:hover{
+        border-color: #0081af;
+        background: none;
+        color: #0081af;
+    }
 }
