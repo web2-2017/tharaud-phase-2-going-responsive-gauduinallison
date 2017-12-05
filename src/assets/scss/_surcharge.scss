@@ -10,3 +10,22 @@
 h2{
     font-family: 'jaapokkiregular';
 }
+
+h4{
+    font-family: 'jaapokkiregular';
+    color:#0081af;
+}
+
+h4::before{
+    content: "";
+    background-color:#0081af;
+    width:10%;
+    height: 4px;
+    border-radius:30px;
+    position: absolute;
+    left: 45%;
+}
+
+.position{
+    position: relative;
+}
