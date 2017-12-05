@@ -14,6 +14,17 @@ body{
     background-size: contain;
 }
 
+.orbit{
+    position: relative;
+
+    .orbit-bullets{
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom:40px;
+    }
+}
+
 h2{
     font-family: 'jaapokkiregular';
 }
