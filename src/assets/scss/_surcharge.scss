@@ -56,9 +56,32 @@ h5{
     font-family: 'jaapokkiregular';
 }
 
-p{
+#description{
     font-size:18px;
     margin-left:97px;
     margin-right: 97px;
     color:#082c34;
+}
+
+p{
+    color:#082c34;
+}
+
+.nouveautes{
+    background: url('../img/bg_nouveautes.png') no-repeat 100%;
+}
+
+time{
+    font-size: 16px;
+    color:#3eaf8e;
+    font-weight: bold;
+}
+
+.dates{
+    margin-bottom: 98px;
+    padding: 0.9375rem 90px !important;
+}
+
+hr{
+    width: 325px;
 }
