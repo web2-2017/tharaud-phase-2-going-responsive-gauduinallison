@@ -24,8 +24,20 @@ h4::before{
     border-radius:30px;
     position: absolute;
     left: 45%;
+    top: 70px;
 }
 
 .position{
     position: relative;
+}
+
+em::after{
+    content: "";
+    background-color:#0081af;
+    width:10%;
+    height: 4px;
+    border-radius:30px;
+    position: absolute;
+    left: 45%;
+    bottom: 88px;
 }
