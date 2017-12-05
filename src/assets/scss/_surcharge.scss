@@ -9,6 +9,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background: url('../img/bg.png') no-repeat 100%;
 }
 
 h2{
@@ -67,6 +68,10 @@ p{
     color:#082c34;
 }
 
+.background{
+    background: white;
+}
+
 .nouveautes{
     background: url('../img/bg_nouveautes.png') no-repeat 100%;
 }
@@ -84,4 +89,20 @@ time{
 
 hr{
     width: 325px;
+}
+
+.btn{
+    background: none;
+    border: solid 3px #a1a1a1;
+    border-left: 0px;
+    border-right: 0px;
+    color:#a1a1a1;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover{
+    border-color: #0081af;
+    background: none;
+    color: #0081af;
 }
