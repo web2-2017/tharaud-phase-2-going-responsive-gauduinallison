@@ -157,3 +157,9 @@ footer{
     margin-top: 115px;
     margin-left: 110px;
 }
+
+@media screen and (max-width: 640px){
+  .menu-icon{
+      position: absolute;
+  }
+}
