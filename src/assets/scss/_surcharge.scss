@@ -103,12 +103,6 @@ h2{
     margin-bottom: 98px;
     padding: 0.9375rem 90px !important;
 
-    time{
-        font-size: 16px;
-        color:#3eaf8e;
-        font-weight: bold;
-    }
-
     hr{
         width: 325px;
     }
@@ -122,6 +116,12 @@ h2{
         top: 952px;
         right: 293px;
     }
+}
+
+time{
+    font-size: 16px;
+    color:#3eaf8e;
+    font-weight: bold;
 }
 
 .btn{
@@ -203,4 +203,20 @@ h1{
 .encart-dates{
   border: solid 3px #3eaf8b;
   height: 310px;
+  width: 295px!important;
+}
+
+h5{
+  font-family: 'jaapokkiregular';
+
+  &::after{
+    content: "";
+    background-color: #3eaf8b;
+    width: 15px;
+    height: 4px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 1015px;
+    right: 51px;
+  }
 }
