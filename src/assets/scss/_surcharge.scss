@@ -166,3 +166,26 @@ footer{
   background: url("../img/bg.png") no-repeat 100%;
   background-size: cover;
 }
+
+
+
+/* ------- PAGE BIO ------- */
+
+.slider-bio{
+  position: absolute;
+  left: 40px;
+}
+
+.slider-motif{
+  position: relative;
+}
+
+h1{
+  position: relative;
+  top: 57%;
+  z-index: 1;
+  left: 40%;
+  font-family: 'jaapokkiregular';
+  font-size: 80px;
+  color: #55b6cb;
+}
