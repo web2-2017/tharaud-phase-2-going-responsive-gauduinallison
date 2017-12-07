@@ -1,3 +1,5 @@
+/* ------- GLOBAL ------- */
+
 @font-face {
     font-family: 'jaapokkiregular';
     src: url('../typo/jaapokki-regular-webfont.woff2') format('woff2'),
@@ -13,6 +15,10 @@ body{
     background: url("../img/bg.png") no-repeat bottom;
     background-size: contain;
 }
+
+
+
+/* ------- PAGE D'ACCUEIL ------- */
 
 .orbit{
     position: relative;
@@ -161,3 +167,7 @@ footer{
 @media screen and (max-width: 640px){
 
 }
+
+
+
+/* ------- PAGE BIOGRAPHIE ------- */
